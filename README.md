@@ -1,17 +1,15 @@
 # React Lab 6
 
-Application React qui regroupe tout le TP sur les hooks avances en une seule page claire, basee sur le contenu des captures fournies.
+Projet React base sur le contenu des images du TP.
 
-## Contenu
+## Fonctionnalites
 
-- Etape 1 : preparation du projet
-- Etape 2 : compteur avec `useReducer`
-- Etape 3 : focus sur un champ avec `useRef`
-- Etape 4 : compteur de rendus avec `useRef` et `useEffect`
-- Etape 5 : creation du hook personnalise `useFetch`
-- Etape 6 : affichage d une liste avec `useFetch`
-- Etape 7 : timer avec nettoyage d effet
-- Etape 8 : assemblage final dans `App.js`
+- `Compteur` avec `useReducer`
+- `FocusInput` avec `useRef`
+- `CompteurRendu` avec `useRef` et `useEffect`
+- `useFetch` pour recuperer des articles depuis une API
+- `ListeArticles` qui affiche les articles charges
+- `Timer` avec nettoyage via `clearInterval`
 
 ## Installation
 
@@ -19,17 +17,17 @@ Application React qui regroupe tout le TP sur les hooks avances en une seule pag
 npm install
 ```
 
-## Lancement en local
+## Lancement
 
-Le projet est configure pour tourner sur le port `3000`.
+Le serveur de developpement est configure sur le port `3000`.
 
 ```bash
 npm start
 ```
 
-Puis ouvrir [http://localhost:3000](http://localhost:3000).
+Puis ouvrir `http://localhost:3000`.
 
-## Scripts utiles
+## Scripts
 
 ```bash
 npm start
@@ -42,10 +40,10 @@ npm run lint
 ```text
 src/
   App.jsx
-  App.css
-  index.css
+  Compteur.jsx
+  FocusInput.jsx
+  CompteurRendu.jsx
+  useFetch.js
+  ListeArticles.jsx
+  Timer.jsx
 ```
-
-## Objectif pedagogique
-
-Cette application ne reproduit pas les images. Elle transforme leur contenu en une page React unique, lisible et directement presentable comme livrable de TP.
