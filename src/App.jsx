@@ -36,15 +36,6 @@ const sections = [
 function App() {
   return (
     <main className="app-shell">
-      <header className="app-header">
-        <p className="app-kicker">React Lab 6</p>
-        <h1>TP Hooks Avances - Niveau Debutant</h1>
-        <p className="app-intro">
-          Ce projet implemente directement le contenu du TP des images:
-          useReducer, useRef, useEffect et le hook personnalise useFetch.
-        </p>
-      </header>
-
       <section className="card-grid">
         {sections.map((section) => (
           <article className="card" key={section.title}>
