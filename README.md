@@ -19,21 +19,11 @@ npm install
 
 ## Lancement
 
-Le serveur de developpement est configure sur le port `3000`.
 
-```bash
-npm start
-```
 
-Puis ouvrir `http://localhost:3000`.
+https://github.com/user-attachments/assets/8f79098e-4f02-494b-900c-4d6045ce02c5
 
-## Scripts
 
-```bash
-npm start
-npm run build
-npm run lint
-```
 
 ## Structure
 
